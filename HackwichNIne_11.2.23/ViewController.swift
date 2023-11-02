@@ -20,9 +20,9 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
             {
                 super.viewDidLoad()
                 //Part 8
-                /*let path = Bundle.main.path(forResource: "Property List", ofType: "plist")
+                let path = Bundle.main.path(forResource: "Property List", ofType: "plist")
                 let dict = NSDictionary(contentsOfFile: path!)
-                categoryOneImagesData = dict!.object(forKey:"CategoryOneImages") as! [String]*/
+                categoryOneImagesData = dict!.object(forKey:"CategoryOneImages") as! [String]
             }
         
             
@@ -49,14 +49,14 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
 
         //Part 9
         
-       /* override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+       override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
             if segue.identifier == "mySegue"
             {
-                let s1 = segue.destination as! secondDetailViewController
+                let s1 = segue.destination as! secondTabDetailViewController
                 let imageIndex = tableView.indexPathForSelectedRow?.row
                 s1.imagePass = categoryOneImagesData[imageIndex!]
             }
-        }*/
+        }
 
     }
 

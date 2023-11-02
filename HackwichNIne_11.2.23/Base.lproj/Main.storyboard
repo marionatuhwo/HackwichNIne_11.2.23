@@ -44,6 +44,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="DHg-SJ-xI7" kind="show" identifier="mySegue" id="EQv-1R-u3x"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>
@@ -56,34 +59,38 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Chocolates" image="heart.text.square" catalog="system" id="KSt-YK-Uch"/>
+                    <connections>
+                        <outlet property="tableView" destination="ELL-OE-gmA" id="q9i-Uy-gBZ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="q31-JL-dPi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="408.69565217391306" y="405.80357142857139"/>
         </scene>
-        <!--Second Detail View Controller-->
-        <scene sceneID="WmK-9q-gI3">
+        <!--Second Tab Detail View Controller-->
+        <scene sceneID="d2A-6O-2NK">
             <objects>
-                <viewController id="ZlQ-H0-aKm" customClass="secondDetailViewController" customModule="HackwichNIne_11_2_23" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="z4x-o2-9lM">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                <viewController id="DHg-SJ-xI7" customClass="secondTabDetailViewController" customModule="HackwichNIne_11_2_23" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yTe-84-Sba">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QfB-WI-syg">
-                                <rect key="frame" x="67" y="183" width="281" height="280"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bu5-9z-ziY">
+                                <rect key="frame" x="54" y="134" width="307" height="344"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="XGw-Kz-i8p"/>
+                        <viewLayoutGuide key="safeArea" id="kGM-Bd-POP"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="YqA-jp-0pR"/>
                     <connections>
-                        <outlet property="imageView" destination="QfB-WI-syg" id="Pc8-S2-iun"/>
+                        <outlet property="imageView" destination="bu5-9z-ziY" id="CJJ-L4-oxf"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="PDb-jA-kfb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="P2l-Aw-pdG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1185.5072463768117" y="405.80357142857139"/>
+            <point key="canvasLocation" x="1182.608695652174" y="405.80357142857139"/>
         </scene>
         <!--Home-->
         <scene sceneID="A3T-UE-YlO">
