@@ -49,6 +49,7 @@
 		D0C938622AF431C200491CA6 /* HackwichNIne_11.2.23UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackwichNIne_11.2.23UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0C938662AF431C200491CA6 /* HackwichNIne_11_2_23UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackwichNIne_11_2_23UITests.swift; sourceTree = "<group>"; };
 		D0C938682AF431C200491CA6 /* HackwichNIne_11_2_23UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackwichNIne_11_2_23UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D0C938752AF4362F00491CA6 /* secondDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +104,7 @@
 				D0C938472AF431C000491CA6 /* SceneDelegate.swift */,
 				D0C938492AF431C000491CA6 /* ViewController.swift */,
 				D0C9384B2AF431C000491CA6 /* Main.storyboard */,
+				D0C938752AF4362F00491CA6 /* secondDetailViewController.swift */,
 				D0C9384E2AF431C100491CA6 /* Assets.xcassets */,
 				D0C938502AF431C100491CA6 /* LaunchScreen.storyboard */,
 				D0C938532AF431C100491CA6 /* Info.plist */,
@@ -260,6 +262,7 @@
 			files = (
 				D0C9384A2AF431C000491CA6 /* ViewController.swift in Sources */,
 				D0C938462AF431C000491CA6 /* AppDelegate.swift in Sources */,
+				D0C938762AF4362F00491CA6 /* secondDetailViewController.swift in Sources */,
 				D0C938482AF431C000491CA6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
